@@ -1,0 +1,19 @@
+BS 100|On-board computer
+BS 110|Destination sign
+BS 120|Interior sign
+BS 130|Front sign autonom.
+BS 150|Stationary sign
+BS 170|Interior route-sign
+BS 200|Annunciator
+BS 210|Destination sign DOT-LED
+BS 210F|Destination sign DOT-LED Flash
+BS 220|Interior sign
+BS 214|Destination LCD display
+BS 224|Interior LCD display
+BS 228|Interior VFD display
+BS 230|Control unit
+BSE 270|IBIS/RS232 converter
+BS 310|Destination sign LED
+BS 310 Vossloh|Destination sign LED
+BS 370|Interior LCD-TFT (Multis)
+BS 410|Destination sign LED color

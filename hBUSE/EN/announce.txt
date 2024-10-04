@@ -1,0 +1,12 @@
+necessary items for hW a hG commands:
+
+H0001   stop
+H0002   next stop
+H0003   line number
+H0004   route or direction
+H0005   Attention! Disabled person  
+
+next announcements:
+
+H0006   on demmand stop
+H0007   terminal stop

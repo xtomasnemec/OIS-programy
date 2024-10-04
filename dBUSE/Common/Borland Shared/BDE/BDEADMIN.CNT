@@ -1,0 +1,9 @@
+:Base bdeadmin.hlp>main
+:Title BDE Administrator Help Help
+:Index BDE Administrator Help=BDEADMIN.HLP
+:Link bde32.hlp
+:Link bdeadmin.hlp
+:Link datapump.hlp
+:Link localsql.hlp
+:Link sqllnk32.hlp
+:Include BDEADMIN.TOC
