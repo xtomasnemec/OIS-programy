@@ -17,5 +17,6 @@ Pack obsahuje:
 - PROGBS1 (Pouze Win 7 x86 a starší (Funguje na VirtualBox a VMWare workstation Pro))
 - BSEdit x64
 - Instalátor BDE
+- Data do BS100 a BS120 od Itronyxe
 
 Jestli někdo máte programy SLOŽ32, povely DPMB pro dBUSE nebo program EPISMaster byl bych rád za přidání přes Pull request
