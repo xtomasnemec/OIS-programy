@@ -1,0 +1,258 @@
+@1
+      Program "  ~Programov n¡  sestavy  informa‡n¡ch  panel–~ " je  ur‡en pro
+  programov n¡  dat do  pamˆt¡ Flash  EPROM informa‡n¡ch  panel– firmy  BUSE
+  p©¡mo na vozidle po sbˆrnici IBIS.
+      Na z kladn¡  obrazovce je na horn¡m  © dku zobrazena z kladn¡ nab¡dka,
+  na doln¡m  © dku obrazovky jsou zobrazeny  z kladn¡ 'hork‚ kl vesy', kter‚
+  umo‘¤uj¡  pomoc¡  kl vesnice  ukon‡it  program  nebo  p©ej¡t  do  z kladn¡
+  nab¡dky.
+      Ve st©edn¡  ‡ sti obrazovky je  zobrazeno z kladn¡ okno,  ve kter‚m je
+  mo‘no  jednodu¨e pomoc¡  kl vesnice  nebo  my¨i zvolit  informa‡n¡ panely,
+  kter˜ch  se  bude  programov n¡ t˜kat  a p©i©adit  jim ~Adresy~ na  sbˆrnici
+  IBIS,  ur‡it  ~kter ~  z  obou   pamˆt¡  Flash  v  informa‡n¡m  panelu  bude
+  naprogramov na  a p©i©adit  jim  ~datov‚  soubory~, ze  kter˜ch  budou  data
+  nahr na do pamˆti Flash.
+
+  ~Ovl d n¡ z kladn¡ho okna~
+      Ovl d n¡ je mo‘n‚ jak pomoc¡ my¨i tak z kl vesnice. Ve sloupe‡ku ~Volba~
+  p©edvol¡me,  kter‚ z  informa‡n¡ch panel–  budou programov ny.  P©edvolen‚
+  panely  jsou 'rozsv¡ceny' a ve sloupe‡ku  volba ozna‡eny ~[X]~. P©i ovl d n¡
+  pomoc¡  my¨i  sta‡¡  najet ukazov tkem  ve sloupe‡ku  ~Volba~  na  p©¡slu¨n˜
+  © dek a  stisknout tla‡¡tko my¨i.  Ka‘d˜m stiskem tla‡¡tka  je zmˆnˆn stav
+  volby  vybran˜/zak zan˜.  P©i  ovl d n¡  z  kl vesnice  je  nutn‚  nejprve
+  kl vesou  TAB posunovat  zv˜raznˆn‚ ukazov tko  tak dlouho,  a‘ ukazuje do
+  sloupe‡ku  Volba.  Potom  pomoc¡  ¨ipek  nahoru/dolu  nastavit  zv˜raznˆn‚
+  ukazov tko   na   po‘adovan˜   © dek   a   znakem   mezera   zmˆnit   stav
+  vybran˜/zak zan˜.
+      N zvy   panel–  ~P©edn¡  panel  1,  P©edn¡  panel  2,  ...~  jsou  pouze
+  mnemotechnickou  pom–ckou.  O  kter˜  informa‡n¡  panel  se ve skute‡nosti
+  jedn ,  je  d no  jeho  ~Adresou  IBIS~,  kter   je  v  informa‡n¡m   panelu
+  nastavena pomoc¡ kruhov‚ho p©epina‡e  na ©¡d¡c¡ desce informa‡n¡ho panelu.
+  Ve sloupe‡ku ~kter  Flash~ mus¡ b˜t nastavena pozice 1 nebo 2, kter  ur‡uje,
+  kter    z   obou   mo‘n˜ch   pamˆt¡   Flash   v  informa‡n¡m  panelu  bude
+  p©eprogramov na.  Nastaven¡  1  ur‡uje  pamˆŸ,  kter   je  na ©¡d¡c¡ desce
+  informa‡n¡ho panelu um¡stˆna bl¡‘e k pamˆti EPROM a ze kter‚ se budou data
+  ‡¡st  v pozici  OFF p©epina‡e  S1. P©eprogramov n¡  pamˆti nen¡ z visl‚ na
+  poloze p©epina‡e S1. Jeho poloha  se uplatn¡ teprve p©i zobrazov n¡ n pis–
+  na informa‡n¡m panelu.
+      Zmˆna  hodnot  ~Adresa IBIS~ a  ~kter  Flash~ je mo‘n  pouze u vybran˜ch
+  (rozsv¡cen˜ch)  © dk–. P©i  ovl d n¡ pomoc¡  my¨i stiskneme  tla‡¡tko my¨i
+  s nastaven˜m  ukazov tkem  na  po‘adovan‚  polo‘ce.  Novou  hodnotu zad me
+  z kl vesnice. P©i ovl d n¡ z kl vesnice nastav¡me zv˜raznˆn‚ ukazov tko na
+  po‘adovanou  hodnotu  opakovan˜m  stisknut¡m  kl vesy  TAB  a zad me novou
+  hodnotu.
+      Ve sloupe‡ku ~Datov˜ soubor~ jsou zobrazeny jm‚na soubor– pro jednotliv‚
+  panely.  Tyto soubory  mus¡ b˜t  vytvo©eny programem  KONFIG a konfigurace
+  mus¡  b˜t  provedena  pro  oddˆlenou  pamˆŸ  dat.  Data  ulo‘en   v tˆchto
+  souborech  budou po  spu¨tˆn¡ programov n¡  naprogramov na do informa‡n¡ch
+  panel– se zadanou adresou IBIS.
+      P©i ovl d n¡ pomoc¡ my¨i je  mo‘no kliknut¡m na jm‚nu souboru nastavit
+  ukazov tko na toto  jm‚no souboru, kter‚ je potom  mo‘no pomoc¡ kl vesnice
+  zmˆnit  nebo zadat  nov‚ jm‚no   souboru. Dal¨¡  mo‘n˜ zp–sob  je dvojit˜m
+  kliknut¡m  na  jm‚nu  souboru  otev©¡t  okno  pro  v˜bˆr  souboru.  T¡m je
+  zobrazeno okno, v  jeho‘ st©edn¡ ‡ sti jsou zobrazeny  soubory v adres ©i,
+  kter˜  je  ur‡en  adres ©ovou  cestou  p–vodn¡ho  souboru nebo v aktu ln¡m
+  adres ©i, pokud p–vodn¡ soubor nemˆl  cestu zad nu. Jsou zobrazeny v¨echny
+  soubory,  kter‚  maj¡  stejnou   p©¡ponu  jako  p–vodn¡  soubor.  V˜bˆrov‚
+  kriterium je  mo‘no pomoc¡ 'hvˆzdi‡kov‚  konvence' upravit na  horn¡ lince
+  v˜bˆrov‚ho  okna.  V˜bˆr  souboru  je  mo‘n˜  buƒ  dvojit˜m  kliknut¡m  na
+  p©¡slu¨n‚m jm‚nu nebo nastaven¡m  ukazov tka na po‘adovan˜ soubor (¨ipkami
+  kl vesnice nebo  my¨¡) a zad n¡m tla‡¡tek  OK nebo OPEN. Uzav©¡t  okno bez
+  zmˆny  jm‚na souboru  je mo‘n‚  kl vesou ESC  nebo zad n¡m tla‡¡tka ZRU›IT
+  p©¡padnˆ  kliknut¡m my¨i  s nastaven˜m  ukazov tkem na  uzav¡rac¡ ikonu  v
+  lev‚m horn¡m rohu.
+      P©i  ovl d n¡  z  kl vesnice  je  mo‘n‚  pomoc¡  kl vesy  TAB nastavit
+  zv˜raznˆn‚ ukazov tko  na po‘adovan˜ © dek a  vyps n¡m jm‚na souboru zadat
+  nov‚ jm‚no nebo tla‡¡tkem ENTER otev©¡t okno pro v˜bˆr souboru. P©esunovat
+  zv˜raznˆn‚ ukazov tko  mezi zad vac¡m © dkem,  zobrazenou nab¡dkou soubor–
+  a tla‡¡tky je mo‘n‚ opˆt kl vesou TAB.
+
+  ~Popis polo‘ek hlavn¡ nab¡dky~
+      Jednotliv‚  polo‘ky  nab¡dky  je  mo‘no  vyb¡rat  p©¡mo  my¨¡  a  nebo
+  stisknut¡m  kl vesy ~F10~  zobrazit ukazov tko  nab¡dky, kter‚  pomoc¡ ¨ipek
+  kl vesnice p©esuneme na po‘adovanou polo‘ku  a tu vybereme stiskem kl vesy
+  ENTER.
+
+  ~COM~
+      Polo‘ka umo‘¤uje  zvolit s‚riov˜ port  po‡¡ta‡e, na kter˜  je p©ipojen
+  p©evodn¡k  IBIS  a  p©es  kter˜  bude  po‡¡ta‡  p©ipojen  na sbˆrnici IBIS
+  vozidla. Vybr n¡m t‚to polo‘ky je zobrazena nab¡dka:
+             ~V˜stup p©es COM1~
+             ~V˜stup p©es COM2
+  Vybr n¡m jedn‚  z polo‘ek je  zvolen p©¡slu¨n˜ port.  Ten je zobrazen  i v
+  z kladn¡m oknˆ programu.
+
+  ~Status~
+      Tato polo‘ka umo‘¤uje zobrazit  informaci o z kladn¡m nastaven¡, kter‚
+  je  moment lnˆ  naprogramov no  v  informa‡n¡m  panelu. V˜bˆr informa‡n¡ho
+  panelu je umo‘nˆn zobrazen¡m nab¡dky:
+             ~P©edn¡ panel 1~
+             ~P©edn¡ panel 2~
+             ~Bo‡n¡ panel 1~
+             ~Bo‡n¡ panel 2~
+             ~Bo‡n¡ panel 3~
+             ~Bo‡n¡ panel 4~
+             ~Zadn¡ panel 1~
+             ~Zadn¡ panel 2~
+      Vybr n¡m pomoc¡ n zvu panelu je  ur‡ena jeho adresa IBIS (viz z kladn¡
+  okno). Je  mo‘no vybrat i  informa‡n¡ panel, kter˜  v z kladn¡m oknˆ  nen¡
+  vybr n pro programov n¡. Po zvolen¡ panelu je zobrazena dal¨¡ podnab¡dka:
+             ~EPROM~
+             ~Flash 1~
+             ~Flash 2~
+      Tato  nab¡dka   ur‡uje,  ze  kter‚  pamˆti   bude  z kladn¡  nastaven¡
+  vyzvednuto a zobrazeno. Po vybr n¡ p©¡slu¨n‚ polo‘ky bude po sbˆrnici IBIS
+  provedena komunikace se zadan˜m informa‡n¡m  panelem a po £spˆ¨n‚m na‡ten¡
+  budou  data zobrazena.  V p©¡padˆ  chyby bude  zobrazeno chybov‚  hl ¨en¡,
+  kter‚ bl¡‘e ur‡uje druh chyby.
+
+  ~Programov n¡~
+      Vybr n¡ t‚to polo‘ky odstartuje p©eprogramov n¡ vybran˜ch informa‡n¡ch
+  panel–. Po jeho spu¨tˆn¡ je  nejprve provedena kontrola mez¡ hodnot Adresy
+  IBIS a Kter  Flash a potom je zobrazen dotaz:
+          ~Skute‡nˆ naprogramovat~
+          ~soubor <jmeno souboru> do panelu s adresou ..~
+          ~               .......~
+  kde jsou zobrazeny v¨echny vybran‚  soubory. Po zobrazen¡ ~Ano~ je provedena
+  kontrola  platnosti  dat  v¨ech  soubor–  a  mo‘nost  komunikace po IBIS s
+  ur‡en˜mi   panely.  Teprve   po   £spˆ¨n‚   kontrole  je   zah jen  cyklus
+  programov n¡. Pokud  pamˆŸ Flash, kter  m   b˜t programov na, ji‘ obsahuje
+  platn  data, je zobrazen dotaz:
+  Vybr n¡m  ~Ano~  je  provedeno  nejprve  vymaz n¡  a teprve pak programov n¡
+  p©¡slu¨n‚ pamˆti.
+  Vybr n¡m  ~V¨echny~  se  pokra‡uje  stejnˆ  jako  p©i  Ano, nav¡c v¨ak pokud
+  u nˆkter‚ho dal¨¡ho panelu program zjist¡,  ‘e pamˆŸ obsahuje platn  data,
+  bude vymaz n¡ provedeno okam‘itˆ, ani‘ by byla obsluha znovu dotazov na.
+  Vybr n¡m  ~Ne~  program  ponech   p–vodn¡  data  v  pamˆti Flash a pokra‡uje
+  programov n¡m dal¨¡ho informa‡n¡ho panelu.
+  Vybr n¡m ~Konec~ je programov n¡ informa‡n¡ch panel– ukon‡eno.
+     Pro informaci  obsluhy je ‡asov˜ pr–bˆh  maz n¡ a programov n¡ zobrazen
+  na  obrazovce. V  p©¡padˆ chyby  je zobrazeno  p©¡slu¨n‚ chybov‚ hl ¨en¡ a
+  programov n¡ je ukon‡eno.
+
+  ~Maz n¡~
+     Vybr n¡   t‚to  polo‘ky   provede  vymaz n¡   pamˆt¡  Flash   vybran˜ch
+  informa‡n¡ch panel–. Po kontrole zadan˜ch hodnot je zobrazen dotaz:
+          ~Skute‡nˆ vymazat~
+          ~pamˆŸ Flash .. v panelu s adresou ..~
+          ~      .......~
+  kde  jsou zobrazeny v¨echny pamˆti vybran‚ v z kladn¡m oknˆ. Po zad n¡ ~Ano~
+  program  provede  kontrolu  komunikace  po  IBIS  s  ur‡en˜mi informa‡n¡mi
+  panely. Pokud je  v¨e vpo© dku provede vymaz n¡ zadan˜ch  pamˆt¡ Flash bez
+  ohledu na to, jestli pamˆŸi obsahuj¡ platn  data nebo ne.
+  Pr–bˆh maz n¡ je zobrazen na displeji.
+
+  ~IBIS~
+     Polo‘ka IBIS umo‘¤uje vyslat libovoln˜  povel na sbˆrnici IBIS. Toho je
+  mo‘no  vyu‘¡t  po  ukon‡en¡  programov n¡  k  rychl‚  kontrole  £spˆ¨nosti
+  p©eprogramov n¡  zad n¡m nˆjak‚ho  pro  nov   data origin ln¡ho  c¡le nebo
+  linky povely  IBIS zXXX nebo  lXXX, kde XXX  je t©¡m¡stn‚ ‡¡slo  c¡le nebo
+  linky.
+
+  ~Test~
+     Pomoc¡  polo‘ky  Test  je  mo‘no  spustit  test  informa‡n¡ho panelu se
+  zvolenou adresou IBIS. Test prov d¡  ot ‡en¡ v¨ech dot– panelu ‡ern /‘lut 
+  po  © dc¡ch,  kter‚  je   nez visl‚  na  naprogramov n¡  panelu  (fontech,
+  rozmˆrech atd).  Testu je mo‘no  vyu‘¡t v p©¡padˆ  pochybnosti o nastaven¡
+  adres informa‡n¡ch panel–.
+
+  ~Konec~
+     Tato polo‘ka po dotazu ukon‡uje ‡innost programu.
+
+  ~N povˆda~
+     Provede zobrazen¡ t‚to n povˆdy na displeji.
+
+@2
+                                  ~Status~
+
+    V  tomto  oknˆ  jsou  zobrazeny  informace  vyzvednut‚  ze zadan‚ pamˆti
+  z informa‡n¡ho  panelu, kter‚mu  byla  p©i©azena  adresa IBIS  v z kladn¡m
+  oknˆ. Ozna‡en¡ panelu  a typ pamˆti jsou zobrazeny  v hlavi‡ce okna, kter 
+  m  nap©. tvar ~Data v pamˆti p©edn¡ho panelu 1 - EPROM~.
+    V  prvn¡m  © dku  okna  je  pro  kontrolu  vyps no  jm‚no souboru v‡etnˆ
+  adres ©e,  kter˜  je  p©i©azen  k  zadan‚mu  panelu  a  obsahuje  data pro
+  naprogramov n¡ tohoto panelu.
+    Pokud  jsou zobrazena  data z  pamˆti EPROM  je ve  druh‚m © dku vyps no
+  ozna‡en¡ ~verze programu~, pokud je zobrazen obsah pamˆti Flash, je zobrazen
+  n pis ~Data v oddˆlen‚ pamˆŸi dat Flash~.
+    V  dal¨¡m  © dku  je  uvedena  ~verze  dat~.  Stejn˜  ©etˆzec  znak– vy¨le
+  informa‡n¡ panel po IBIS po dotazu na verzi povelem IBIS aV<adresa>.
+    ~Povolen‚ povely  IBIS~ jsou povely  IBIS, na kter‚  bude informa‡n¡ panel
+  reagovat.
+    ~Doba vybuzen¡ na p©eklopen¡ dotu~ je doba, po kterou prot‚k  proud ka‘d˜m
+  dotem p©i zmˆnˆ jeho stavu (p©eklopen¡ dotu). Standardn¡ doba je 1ms.
+    ~P©¡znaky~   jsou   jednobitov‚   informace,   kter‚   ovliv¤uj¡   chov n¡
+  informa‡n¡ho panelu. Jedn  se o tyto parametry:
+      P©¡znak pro ot ‡en¡ v¨ech dot– panelu p©i ka‘d‚ zmˆnˆ zobrazen¡. Pokud
+        je nastavena  hodnota 0, pak  se p©i zmˆnˆ  zobrazen¡ vybud¡ jen  ty
+        doty,  kter‚  je  nutn‚  oto‡it.  P©i  hodnotˆ  1 jsou v‘dy vybuzeny
+        v¨echny doty, i kdy‘ se jejich stav nemˆn¡.
+      P©¡znak pro  ot ‡en¡ v¨ech dot– p©i  chybˆ proudu. Pokud je  v pr–bˆhu
+        zmˆny zobrazen¡  na informa‡n¡m panelu zji¨tˆna  chyba proudu, kter 
+        znamen ,  ‘e  nˆkter˜m  dotem  neprotekl  jmenovit˜  proud, jsou p©i
+        nastven‚m tomto p©¡znaku p©i  dal¨¡ zmˆnˆ zobrazen¡ vybuzeny v¨echny
+        doty informa‡n¡ho panelu.
+      P©¡znak -  Status I. P©i  hodnotˆ 1 bude  ©¡d¡c¡ jednotka informa‡n¡ho
+        panelu vys¡lat po dotazu na status hodnotu 7 v p©¡padˆ, ‘e v dobˆ od
+        p©edchoz¡ho dotazu na status  neprotekl p©i zmˆnˆ zobrazen¡ nˆkter˜m
+        dotem jmenovit˜ proud.
+      P©¡znak pro prov dˆn¡ kontroly napˆt¡. Pokud je tento p©¡znak nastaven
+        na hodnotu 1 a nen¡ tato kontrola blokov na hardwarovˆ p©ep¡na‡em S4
+        na ©¡d¡c¡ desce  informa‡n¡ho panelu, bude v pr–bˆhu  zmˆny £daje na
+        informa‡n¡m panelu  prov dˆna kontrola nap jec¡ho  napˆt¡ pro buzen¡
+        dot–. Pokud je  zji¨tˆn pokles pod provozn¡ hodnotu  (cca 16.5V), je
+        po  dobu  sn¡‘en‚ho  nap jec¡ho  napˆt¡  dal¨¡  zmˆna  zobrazen¡  na
+        informa‡n¡m  panelu  blokov na  a  po  zv˜¨en¡  nap jec¡ho napˆt¡ je
+        obnoveno zobrazen¡ vybuzen¡m v¨ech dot– informa‡n¡ho panelu.
+      P©¡znak -  Status U. P©i  hodnotˆ 1 bude  ©¡d¡c¡ jednotka informa‡n¡ho
+        panelu vys¡lat po dotazu na status hodnotu 8 v p©¡padˆ, ‘e v dobˆ od
+        p©edchoz¡ho dotazu  na status pokleslo nap jec¡  napˆt¡ pod provozn¡
+        hodnotu.
+    Na dal¨¡m © dku  je uveden typ panelu, pro kter˜  jsou data ur‡ena. M–‘e
+  se jednat o ~Panel  pro zobrazen¡  ‡¡sla  linky~ nebo o ~Panel pro  zobrazen¡
+  ~‡¡sla  c¡le~ a nebo o ~Kombinovan˜  panel~, kter˜  je programovˆ  rozdˆlen na
+  ‡ st pro zobrazen¡ ‡¡sla linky a ‡ st pro zobrazen¡ textu c¡le.
+    Na dal¨¡ch © dc¡ch jsou podle typu panelu uvedeny ~rozmˆry~ v po‡tech dot–
+  a ~p©ednastaven‚  parametry~,  kter‚  se  uplatn¡,  pokud  zobrazovan   data
+  neobsahuj¡ vlastn¡ parametry.
+
+@3
+                      ~Vysl n¡ povelu na sbˆrnici IBIS~
+
+     V oknˆ  pro vysl n¡ povelu  na sbˆrnici IBIS  jsou zobrazeny dvˆ  pole.
+  Pole s ozna‡en¡m ~Povel IBIS~ je  ur‡eno pro zad n¡ vys¡lan‚ho povelu, druh‚
+  pole s  ozna‡en¡m ~P©ijat  data~  je ur‡eno pouze  pro zobrazen¡ dat,  kter‚
+  vyslal  informa‡n¡  panel  jako  odezvu  na  zadan˜  povel  (nap©. vysl n¡
+  status).
+     Povel IBIS  je ASCII ©etˆz,  kter˜ je vysl n  na sbˆrnici IBIS  ani‘ by
+  program kontroloval  jeho spr vnost. Program pouze  dopln¡ ukon‡ovac¡ znak
+  0DH  a pod‚lnou  paritu tak,  jak p©edepisuje  norma IBIS.  V¨e ostatn¡ je
+  ponech no na kontrole obsluhou. Povel je vysl n  po zvolen¡ volby ~Vysl n¡~.
+  Pro kontrolu  je po vysl n¡  cel˜ vyslan˜ ©etˆz  zobrazen v zelen‚m  poli,
+  kter‚ z rove¤ signalizuje, ‘e p©i  zad n¡ prvn¡ho znaku nov‚ho povelu bude
+  star˜ povel  automaticky vymaz n. Pokud chceme  star˜ povel pouze opravit,
+  je nutn‚  p©esunout ukazov tko (¨ipkami  nebo my¨¡) po  povelu. T¡m zelen‚
+  pole zmiz¡ a je mo‘no prov‚st opravu star‚ho textu povelu.
+     V  poli  ~P©ijat   data~  jsou  zobrazeny  v¨echny  p©ijat‚  znaky v‡etnˆ
+  ukon‡ovac¡ho znaku 0DH (zobrazen jako nota) a kontroln¡ho sou‡tu.
+
+
+@4
+                         ~Test informa‡n¡ho panelu~
+
+      Test informa‡n¡ho  panelu ot ‡en¡m v¨ech  bod– po © dc¡ch  je proveden
+  vyvol n¡m intern¡ho testu, kter˜  je nez visl˜ na naprogramovan˜ch datech,
+  kter‚ ur‡uj¡ konkr‚tn¡ rozmˆry, fonty apod.
+      V poli ~Adresa  panelu~ je nutno zadat adresu  IBIS informa‡n¡ho panelu,
+  kter˜ m  b˜t testov n. Po zad n¡ ~Start~ je spu¨tˆn test informa‡n¡ho panelu
+  se  zadanou   adresou.  Prob¡haj¡c¡  test  je   na  displeji  signalizov n
+  ot ‡ej¡c¡m se znakem v poli za  adresou panelu. Test za‡¡n  ot ‡en¡m v¨ech
+  bod– do ‡ern‚ barvy a jeden pr–chod testu trv  cca 11 sec. Proto, pokud je
+  panel  p©ed  spu¨tˆn¡m  testu  oto‡en  do  ‡ern‚,  panel zd nlivˆ okam‘itˆ
+  nereaguje na odstartov n¡ testu.
+      Ukon‡en¡ testu je  provedeno po zad n¡ ~Konec~ a  program z rove¤ p©ejde
+  do zobrazen¡ z kladn¡ho okna. Test  je tak‚ ukon‡en odstartov n¡m testu po
+  zad n¡  adresy jin‚ho  panelu. V   tomto p©¡padˆ  je ukon‡en  test jednoho
+  panelu a odstartov n test panelu s novou adresou.
+
+

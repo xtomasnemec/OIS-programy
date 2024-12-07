@@ -1,0 +1,12 @@
+nutne pro polozky povelu   hW a hG :
+
+H0001   zastavka
+H0002   pristi zastavka
+H0003   linka cislo
+H0004   smer
+H0005   pozor, invalida
+
+dalsi mozne takto:
+
+H0006   zastavka je na znameni
+H0007   konecna zastavka

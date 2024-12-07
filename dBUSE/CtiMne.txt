@@ -1,0 +1,3 @@
+Pro správnou funkci programu dBUSE je nezbytné do poèítaèe instalovat knihovnu BDE.(Spusti se setup.exe v adresaøi BDE\DISK1).
+Jestiže je knihovna BDE v poèítaèi již instalována, je postaèující do poèítaèe zkopírovat pouze program dBUSE (soubor dBUSE.exe).
+          

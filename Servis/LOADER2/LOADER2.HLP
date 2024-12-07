@@ -1,0 +1,73 @@
+@1
+      ~N povˆda pro nahr v n¡ programu do palubn¡ho po‡¡ta‡e BS 100~
+      ~============================================================~
+
+Ukon‡en¡  t‚to n povˆdy  je stisknut¡m  kl vesy ESC  nebo kliknut¡m  my¨¡ na
+ikonku v lev‚m horn¡m rohu.
+
+~ Z kladn¡ obrazovka ~
+  Na z kladn¡  obrazovce je naho©e  zobrazen © dek ~MENU~, kter˜  je p©¡stupn˜
+po stisku kl vesy F10 nebo umo‘¤uje v˜bˆr pomoc¡ my¨i.
+  Ve  st©edn¡  ‡ sti  jsou  zobrazeny  informace  o  zvolen‚m s‚riov‚m portu
+po‡¡ta‡e COM1 nebo COM2 a soubor, kter˜ bude nahr n do palubn¡ho po‡¡ta‡e BS
+100. Tla‡¡tkem  ~Programuj~ se spust¡  vlastn¡  proces  nahr v n¡  programu do
+pamˆti BS 100. Tla‡¡tkem ~Konec~ se ukon‡¡ ‡innost tohoto programu.
+  Spodn¡ ‡ st obrazovky tvo©¡ stavov˜ © dek.
+
+~Hardware~
+  Program  o‡ek v   propojen¡  mezi  po‡¡ta‡em  PC  a  palubn¡m po‡¡ta‡em po
+s‚riov‚ lince  ~RS 485~, po kter‚ komunikuje rychlost¡ ~115kBd~.  Na stranˆ PC
+se  doporu‡uje k  p©evodu RS 232  na RS 485  pou‘¡t p©evodn¡k  MOD485NG nebo
+MOD485G firmy ELO  P¡sek. K p©ep¡n n¡ smˆru je vyu‘it  sign l RTS. Na stranˆ
+BS 100 se vyu‘¡v  servisn¡ konektor MINIDIN.
+
+~Programov n¡~
+  Pro zd rn˜ pr–bˆh programov n¡ je  nutn‚ pouze zvolit spr vn˜ s‚riov˜ port
+po‡¡ta‡e ( ~COM~ ) a  vybrat  p©¡slu¨n˜  soubor  s programem  pro  Flash pamˆŸ
+BS 100, kter˜ mus¡ b˜t ve form tu INTEL HEX.
+  V˜bˆr s‚riov‚ho portu se provede p©es nab¡dku ~COM~, kde je mo‘n˜ v˜bˆr mezi
+~COM1~ a ~COM2~.
+  V˜bˆr  souboru  pro  programov n¡ je   mo‘n˜ buƒ  p©es  nab¡dku  ~FILE~ nebo
+rychleji  kliknut¡m dvakr t  rychle za  sebou na  jm‚no souboru  na z kladn¡
+obrazovce nebo, pokud  nen¡ ‘ dn‚ jm‚no zobrazeno, do  prostoru, kde by mˆlo
+b˜t. V obou  p©¡padech se otev©e okno s nab¡dkou  soubor–, ze kter‚ je mo‘no
+p©¡slu¨n˜  soubor  vybrat,  nebo  je  mo‘n‚  v  horn¡m vstupn¡m © dku vypsat
+po‘adovanou cestu a jm‚no souboru.
+  Po zad n¡ COM  a jm‚na souboru je mo‘no programov n¡  spustit. To je mo‘n‚
+klepnut¡m my¨i na tla‡¡tko ~Programuj~ nebo  v˜bˆrem  polo‘ky ~Programov n¡~ z
+nab¡dky nebo jenom stisknut¡m kl vesy ENTER.
+  Po  p©¡kazu k  programov n¡ je   proveden kontroln¡  dotaz, jestli  m  b˜t
+skute‡nˆ  programov n¡  zah jeno.  Po  jeho  potvrzen¡  se  provede kontrola
+zadan‚ho  souboru,  vyma‘e  se  Flash  pamˆŸ  a  je  nahr n  nov˜ program. O
+jednotliv˜ch kroc¡ch je obsluha informov na pomoc¡ sloupcov‚ho grafu.
+  V  nˆkter˜ch  speci ln¡ch  p©¡padech,  kdy  se  program  LOADER2 nem–‘e po
+spu¨tˆn¡ programov n¡  p©¡mo domluvit s BS100,  je po‘adov no vypnut¡ BS100.
+Tento krok je po vypnut¡ nutno potvrdit a program p©ejde do smy‡ky ‡ek n¡ na
+spojen¡,  kdy opakovanˆ  vys¡l  zpr vu   na s‚riov˜  port a  o‡ek v  odpovˆƒ
+z BS100,  kter   by  mˆla  p©ij¡t  po  opˆtovn‚m zapnut¡ palubn¡ho po‡¡ta‡e.
+V p©¡padˆ,  ‘e  se  nap©.  z  d–vodu  nespr vn‚ho propojen¡ nepoda©¡ nav zat
+spojen¡  mezi  po‡¡ta‡em  a  BS100,  je  mo‘no  tento  re‘im  zru¨it stiskem
+libovoln‚ kl vesy.
+
+~Menu~
+  Polo‘ka ~FILE~ v nab¡dce umo‘¤uje vybrat ~Soubor~ pro programov n¡ do BS100.
+D le je zde uveden jeden ze zp–sob– ukon‡en¡ programu.
+  Polo‘ka ~COM~ slou‘¡ k volbˆ s‚riov‚ho portu po‡¡ta‡e.
+  Polo‘ka ~Informace~ dovoluje zjistit nˆkter‚ parametry  programu v souboru a
+v BS 100.  —daj ~Program p©elo‘en pro kapacitu pamˆti~ v informaci  o programu
+v souboru  a £daj  ~Kapacita  pamˆti  pro program~   v informaci  o programu v
+BS 100 uv d¡, jak˜ model rozsahu programu a datab ze  byl resp. bude pou‘it.
+Pokud je tento  model r–zn˜, dojde v‘dy p©eprogramov n¡m programu ke zru¨en¡
+datab ze v BS 100 a je tedy po nahr n¡ programu nutn‚ je¨tˆ nahr t datab zi.
+Na tuto skute‡nost je p©i programov n¡ obsluha automaticky upozornˆna.
+Pomoc¡ uveden˜ch kontroln¡ch sou‡t– lze  v p©¡padˆ pochybnosti zjistit nap©.
+shodnost program–.
+  Polo‘ka ~Konec~ ukon‡uje  ‡innost tohoto  programu. P©i jeho  ukon‡en¡ se do
+pr vˆ  aktu ln¡ho   adres ©e  zap¡¨e  soubor   LOADER2.OVL,  kter˜  obsahuje
+nastaven¡  parametr– programu  v okam‘iku  jeho ukon‡en¡.  Pokud je  program
+znovu spu¨tˆn z tohoto adres ©e, jsou parametry programu opˆt na‡teny.
+  Polo‘ka  ~N povˆda~ otv¡r   soubor  LOADER2.HLP  s touto  n povˆdou.  Soubor
+mus¡ b˜t um¡stˆn v adres ©i s programem.
+  Polo‘ka ~Info~ zobraz¡ informaci o programu.
+
+

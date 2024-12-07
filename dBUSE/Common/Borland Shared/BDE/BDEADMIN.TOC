@@ -1,0 +1,59 @@
+:Base BDEADMIN.HLP>main
+:Title BDE Administrator Help
+:Index BDE Administrator Help=BDEADMIN.HLP
+:Link bde32.hlp
+:Link datapump.hlp
+:Link localsql.hlp
+:Link sqllnk32.hlp
+;
+1 BDE Administrator Help
+2 BDE Administrator overview=dbxoverview
+2 BDE Administrator user interface
+3 BDE Administrator window=thedbexploreruserinterface
+3 Color-coded symbols=colorcodedsymbols
+3 Key commands=keycommands
+3 BDE Administrator toolbar=usingdatabaseexplorerspeedbar
+3 Tabbed pages (left pane)
+4 Databases page=databases
+4 Configuration page=idh_idapi_configutil
+3 Tabbed pages (right pane)
+4 Tabbed pages (right pane)=tabbedpages
+4 Definition page=definitionpage
+3 Menu commands
+4 Menu commands=menubarcommands
+4 Object menu commands=objectmenubarcommands
+4 Edit menu commands=editmenubarcommands
+4 View menu commands=viewmenubarcommands
+4 Options menu commands=optionsmenubarcommands
+4 Help menu commands=helpmenubarcommands
+2 Database topics
+3 Databases page=databases
+3 Working with database aliases=workingwithdatabasealiases
+2 BDE configuration topics
+3 Configuration page=idh_idapi_configutil
+3 Saving configuration information=savingconfigurationinformation
+3 Configuring Microsoft ODBC
+4 Configuring Microsoft Open Database Connectivity (ODBC)=configuringmicrosoftopendatabaseconnectivityodbc>main
+4 Configuring the ODBC configuration file=configuringtheodbcconfigurationfile>main
+4 Configuring the BDE configuration file for ODBC=configuringthebdeconfigurationfileforodbc>main
+4 ODBC socket configuration entries=odbcsocketconfigurationentries>main
+4 AutoODBC=autoodbc>main
+3 BDE configuration settings
+4 System settings
+5 System INIT settings=idh_idapi_sysmgr>main
+5 Format settings
+6 System Format Date settings=idh_idapi_datemgr>main
+6 System Format Time settings=idh_idapi_timemgr>main
+6 System Format Number settings=idh_idapi_numbermgr>main
+4 Drivers settings
+5 Drivers settings=idh_idapi_drivermgr>main
+5 Access driver settings=idh_idapi_driversaccess
+5 Paradox driver settings=idh_idapi_driverspdox
+5 dBASE and FoxPro driver settings=idh_idapi_driversdbase
+5 ODBC driver connection settings=idh_idapi_driversodbc
+5 Sybase driver settings=idh_idapi_driverssybase
+5 Oracle driver settings=idh_idapi_driversoracle
+5 Informix driver settings=idh_idapi_driversinformix
+5 InterBase driver settings=idh_idapi_driversinterbase
+5 Microsoft SQL Server driver settings=idh_idapi_driversmssql
+5 DB2 driver settings=idh_idapi_driversdb2
